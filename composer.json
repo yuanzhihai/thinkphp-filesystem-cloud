@@ -1,6 +1,6 @@
 {
-    "name": "thans/thinkphp-filesystem-cloud",
-    "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu",
+    "name": "yzh52521/thinkphp-filesystem-cloud",
+    "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu and Huawei and SwaS3",
     "type": "library",
     "require": {
         "php": ">=7.1.0",
