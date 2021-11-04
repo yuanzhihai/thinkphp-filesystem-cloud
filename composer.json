@@ -6,7 +6,7 @@
         "php": ">=7.1.0",
         "topthink/framework": "^6.0.0",
         "yzh52521/flysystem-oss": "^1.0",
-        "overtrue/flysystem-qiniu": "^1.10",
+        "overtrue/flysystem-qiniu": "^1.0",
         "overtrue/flysystem-cos": "^2.0.0",
         "yzh52521/flysystem-obs": "^1.0",
         "league/flysystem-aws-s3-v3":"^1.0"
