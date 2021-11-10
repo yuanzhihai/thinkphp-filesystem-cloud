@@ -1,5 +1,5 @@
 {
-    "name": "thans/thinkphp-filesystem-cloud",
+    "name": "yzh52521/thinkphp-filesystem-cloud",
     "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu",
     "type": "library",
     "require": {
