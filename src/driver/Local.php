@@ -33,4 +33,12 @@ class Local extends Driver
             $this->config['root'], LOCK_EX, $links, $permissions
         );
     }
+
+    public function url(string $path): string
+    {
+        if (isset($this->config['url'])) {
+            return $this->concatPathToUrl($this->config['url'], $path);
+        }
+        return parent::url($path);
+    }
 }
