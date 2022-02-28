@@ -13,10 +13,8 @@
 3. 腾讯云
 4. 华为云
 5. AwsS3
+6. sfpt
 
-## 计划
-
-1. 支持华为云
 
 ## 安装
 
@@ -77,6 +75,17 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
       'use_path_style_endpoint' => false,
       'endpoint'                => 'S3_ENDPOINT',
       'bucket_name'             => 'S3_BUCKET',
+]，
+'sftp'=>[
+    'host' => 'example.com',
+    'port' => 22,
+    'username' => 'username',
+    'password' => 'password',
+    'privateKey' => 'path/to/or/contents/of/privatekey',
+    'passphrase' => 'passphrase-for-privateKey',
+    'root' => '/path/to/root',
+    'timeout' => 10,
+    'directoryPerm' => 0755
 ]
 ```
 
