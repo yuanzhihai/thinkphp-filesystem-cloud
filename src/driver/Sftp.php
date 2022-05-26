@@ -9,7 +9,6 @@ class Sftp extends Driver
 {
     protected function createAdapter(): AdapterInterface
     {
-        $adapter = new \League\Flysystem\SftpAdapter($this->config);
-        return new League\Flysystem\Filesystem($adapter);
+        return new \League\Flysystem\Sftp\SftpAdapter($this->config);
     }
 }

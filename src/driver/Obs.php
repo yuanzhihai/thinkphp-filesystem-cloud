@@ -14,14 +14,14 @@ class Obs extends Driver
     protected function createAdapter(): AdapterInterface
     {
         return new ObsAdapter([
-                                  'key'        => $this->config['key'],
-                                  'secret'     => $this->config['secret'],
-                                  'bucket'     => $this->config['bucket'],
-                                  'endpoint'   => $this->config['endpoint'],
-                                  'cdn_domain' => $this->config['cdn_domain'],
-                                  'ssl_verify' => $this->config['ssl_verify'],
-                                  'debug'      => $this->config['debug']
-                              ]);
+            'key'        => $this->config['key'],
+            'secret'     => $this->config['secret'],
+            'bucket'     => $this->config['bucket'],
+            'endpoint'   => $this->config['endpoint'],
+            'cdn_domain' => $this->config['cdn_domain'],
+            'ssl_verify' => $this->config['ssl_verify'],
+            'debug'      => $this->config['debug']
+        ]);
     }
 
     public function url(string $path): string
