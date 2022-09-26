@@ -11,6 +11,7 @@
 1. 阿里云
 2. 七牛云
 3. 腾讯云
+4. 华为云
 5. AwsS3
 6. sfpt
 
@@ -67,7 +68,16 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
        'timeout' => env('COS_TIMEOUT', 60),
         'connect_timeout' => env('COS_CONNECT_TIMEOUT', 60),
      ],
-]
+],
+'obs'=>[
+     'key'        => 'OBS_ACCESS_ID',
+     'secret'     => 'OBS_ACCESS_KEY', //Huawei OBS AccessKeySecret
+     'bucket'     => 'OBS_BUCKET', //OBS bucket name
+     'endpoint'   => 'OBS_ENDPOINT',
+     'cdn_domain' => 'OBS_CDN_DOMAIN',
+     'ssl_verify' => 'OBS_SSL_VERIFY',
+     'debug'      => 'APP_DEBUG',
+],
 's3'=>[
     'key' => env('AWS_ACCESS_KEY_ID'),
     'secret' => env('AWS_SECRET_ACCESS_KEY'),
