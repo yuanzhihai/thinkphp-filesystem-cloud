@@ -4,7 +4,6 @@
     "type": "library",
     "require": {
         "php": ">=8.0.2",
-        "yzh52521/framework": "^6.0.x-dev",
         "yzh52521/flysystem-oss": "^3.0",
         "yzh52521/flysystem-obs": "^2.0",
         "overtrue/flysystem-qiniu": "^3.0",
