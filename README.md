@@ -74,9 +74,9 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
      'secret'     => 'OBS_ACCESS_KEY', //Huawei OBS AccessKeySecret
      'bucket'     => 'OBS_BUCKET', //OBS bucket name
      'endpoint'   => 'OBS_ENDPOINT',
-     'cdn_domain' => 'OBS_CDN_DOMAIN',
-     'ssl_verify' => 'OBS_SSL_VERIFY',
-     'debug'      => 'APP_DEBUG',
+     'prefix'=>'',
+     'bucket_endpoint'=>'',
+     'temporary_url' => '',
 ],
 's3'=>[
     'key' => env('AWS_ACCESS_KEY_ID'),
