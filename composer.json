@@ -1,6 +1,6 @@
 {
     "name": "yzh52521/thinkphp-filesystem-cloud",
-    "description": "thinkphp6.0 filesystem v3,include Aliyun 、Qiniu 、Cos、Obs、Aws ",
+    "description": "thinkphp6.1 filesystem v3,include Aliyun 、Qiniu 、Cos、Obs、Aws ",
     "type": "library",
     "require": {
         "php": ">=8.0.2",
