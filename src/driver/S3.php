@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace yzh52521\filesystem\driver;
 
 use League\Flysystem\AwsS3V3\AwsS3V3Adapter;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 use Aws\S3\S3Client;
 
 class S3 extends Driver

@@ -4,7 +4,7 @@ declare( strict_types = 1 );
 namespace yzh52521\filesystem\driver;
 
 use Overtrue\Flysystem\QiNiu\QiniuAdapter;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 
 class Qiniu extends Driver
 {

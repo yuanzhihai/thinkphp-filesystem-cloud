@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace yzh52521\filesystem;
 
 use InvalidArgumentException;
-use yzh52521\filesystem\Driver;
 use think\helper\Arr;
 use think\Manager;
 

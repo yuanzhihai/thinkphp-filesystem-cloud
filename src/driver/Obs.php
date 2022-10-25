@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace yzh52521\filesystem\driver;
 
 use Obs\ObsClient;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 use yzh52521\Flysystem\Obs\ObsAdapter;
 
 class Obs extends Driver

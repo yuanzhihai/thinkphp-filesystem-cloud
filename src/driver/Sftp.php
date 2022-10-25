@@ -6,7 +6,7 @@ namespace yzh52521\filesystem\driver;
 use League\Flysystem\PhpseclibV3\SftpAdapter;
 use League\Flysystem\PhpseclibV3\SftpConnectionProvider;
 use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 
 class Sftp extends Driver
 {

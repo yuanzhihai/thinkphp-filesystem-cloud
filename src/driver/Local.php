@@ -7,7 +7,7 @@ namespace yzh52521\filesystem\driver;
 use League\Flysystem\Local\LocalFilesystemAdapter;
 use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
 use League\Flysystem\Visibility;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 
 class Local extends Driver
 {

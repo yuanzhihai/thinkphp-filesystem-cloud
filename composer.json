@@ -9,7 +9,8 @@
         "overtrue/flysystem-qiniu": "^3.0",
         "overtrue/flysystem-cos": "^5.0.0",
         "league/flysystem-aws-s3-v3":"^3.0",
-        "league/flysystem-sftp-v3": "^3.0"
+        "league/flysystem-sftp-v3": "^3.0",
+        "league/flysystem-ftp": "^3.0"
     },
     "license": "MIT",
     "authors": [

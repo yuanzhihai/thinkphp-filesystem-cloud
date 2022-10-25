@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace yzh52521\filesystem\driver;
 
 use Overtrue\Flysystem\Cos\CosAdapter;
-use think\filesystem\Driver;
+use yzh52521\filesystem\Driver;
 
 class Qcloud extends Driver
 {
