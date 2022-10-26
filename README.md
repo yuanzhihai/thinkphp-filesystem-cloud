@@ -1,10 +1,10 @@
 <h1><p align="center">thinkphp-filesystem-cloud</p></h1>
-<p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS和awsS3</p>
+<p align="center"> thinkphp6.1 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS和awsS3</p>
 
 ## 包含
 
 1. php >= 8.0
-2. thinkphp >=6.0.0
+2. thinkphp >=6.1.0
 
 ## 支持
 
@@ -102,6 +102,12 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
 
 第三步： 开始使用。 请参考thinkphp文档
 文档地址：[https://www.kancloud.cn/manual/thinkphp6_0/1037639 ](https://www.kancloud.cn/manual/thinkphp6_0/1037639 )
+
+面板使用：
+```
+\yzh52521\filesystem\facade\Filesystem
+
+```
 
 ## 授权
 
