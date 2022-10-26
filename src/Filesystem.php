@@ -7,7 +7,14 @@ namespace yzh52521\filesystem;
 use InvalidArgumentException;
 use think\helper\Arr;
 use think\Manager;
+use yzh52521\filesystem\driver\Local;
 
+/**
+ * Class Filesystem
+ * @package think
+ * @mixin Driver
+ * @mixin Local
+ */
 class Filesystem extends Manager
 {
     protected $namespace = '\\yzh52521\\filesystem\\driver\\';

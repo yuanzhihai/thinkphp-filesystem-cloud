@@ -464,7 +464,7 @@ abstract class Driver
         } elseif ($adapter instanceof LocalFilesystemAdapter) {
             return $this->getLocalUrl( $path );
         } else {
-            throw new RuntimeException( 'This driver does not support retrieving URLs.' );
+            throw new \RuntimeException( 'This driver does not support retrieving URLs.' );
         }
     }
 
