@@ -1,8 +1,16 @@
+
+
+> 为了后期更好的维护think6.1版本已修改包名，请注意切换
+[https://github.com/yzh52521/think-filesystem ](https://github.com/yzh52521/think-filesystem )
+
+
+
+
 <h1><p align="center">thinkphp-filesystem-cloud</p></h1>
 <p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS和华为云OBS和awsS3</p>
 
-## 包含
 
+## 包含
 1. php >= 7.1
 2. thinkphp >=6.0.0
 
