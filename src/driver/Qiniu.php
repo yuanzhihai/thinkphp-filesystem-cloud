@@ -4,7 +4,7 @@ namespace yzh52521\filesystem\driver;
 
 
 use League\Flysystem\AdapterInterface;
-use Overtrue\Flysystem\QiNiu\QiniuAdapter;
+use Overtrue\Flysystem\Qiniu\QiniuAdapter;
 use think\filesystem\Driver;
 
 class Qiniu extends Driver

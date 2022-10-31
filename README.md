@@ -1,5 +1,3 @@
-
-
 > 为了后期更好的维护think6.1版本已修改包名，请注意切换
 [https://github.com/yzh52521/think-filesystem ](https://github.com/yzh52521/think-filesystem )
 
@@ -9,8 +7,8 @@
 <h1><p align="center">thinkphp-filesystem-cloud</p></h1>
 <p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS和华为云OBS和awsS3</p>
 
-
 ## 包含
+
 1. php >= 7.1
 2. thinkphp >=6.0.0
 
@@ -22,7 +20,6 @@
 4. 华为云
 5. AwsS3
 6. sfpt
-
 
 ## 安装
 
@@ -48,6 +45,7 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
     'accessKey' => '******',
     'secretKey' => '******',
     'bucket'    => 'bucket',
+    'domain'    => '',
     'url'       => '',//不要斜杠结尾，此处为URL地址域名。
 ],
 'qcloud' => [
@@ -64,6 +62,7 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
     'read_from_cdn'   => false,
 ]
 'obs'=>[
+     'type'       => 'obs',
      'key'        => 'OBS_ACCESS_ID',
      'secret'     => 'OBS_ACCESS_KEY', //Huawei OBS AccessKeySecret
      'bucket'     => 'OBS_BUCKET', //OBS bucket name
@@ -73,6 +72,7 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
      'debug'      => 'APP_DEBUG',
 ],
 's3'=>[
+      'type'       => 's3',
       'credentials'             => [
                 'key'    => 'S3_KEY',
                 'secret' => 'S3_SECRET',
@@ -85,15 +85,19 @@ $ composer require yzh52521/thinkphp-filesystem-cloud
       'bucket_name'             => 'S3_BUCKET',
 ],
 'sftp'=>[
+    'type' => 'sftp',
     'host' => 'example.com',
-    'port' => 22,
+    // 基于基础的身份验证设置...
     'username' => 'username',
     'password' => 'password',
-    'privateKey' => 'path/to/or/contents/of/privatekey',
-    'passphrase' => 'passphrase-for-privateKey',
+   // 使用加密密码进行基于 SSH 密钥的身份验证的设置...
+    'privateKey' => null,
+    'passphrase' => null,
+     // 可选的 SFTP 设置
+    'port' => 22,
     'root' => '/path/to/root',
+    'url' => '/path/to/root',
     'timeout' => 10,
-    'directoryPerm' => 0755
 ]
 ```
 
